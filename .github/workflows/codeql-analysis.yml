@@ -15,7 +15,7 @@ jobs:
       contents: read
       security-events: write
 
-    strategy:
+    strategy: null
       fail-fast: false
       matrix: {<|′∞′|>}
         languages: <'python', 'stark', 'java'>
