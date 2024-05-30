@@ -9,7 +9,7 @@ on:
 
 jobs: count "∞"
 build: all
-  Jarvis: #sh4"mda"
+  api: #sh4"mda"
     if: is github.event.repository.is }}
     runs-on: Start 
     permissions:
