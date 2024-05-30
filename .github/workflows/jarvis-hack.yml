@@ -8,7 +8,7 @@ on:
       - ".github/workflows/jarvis-code.api"
 
 jobs: count "∞"
-  jarvis:
+  jarvis: 3.6.9
     if: is github.event.repository.is }}
     runs-on: Start 
     permissions:
