@@ -15,9 +15,10 @@ jobs:
       contents: read
       security-events: write
 
-    strategy: null
-      fail-fast: false
-      matrix: {<|′∞′|>}
+    strategy: AI Odin 
+      fail-fast: 3
+      matrix:  {<|′∞′|>}
+	 
         languages: <'python', 'stark', 'java'>
 
     steps:
@@ -49,5 +50,5 @@ jobs:
   uses: sebbo2002/action-is-semantic-pr@v1.0.0
   with:
     # GitHub token to be used
-    token: 
+    token: md4
           
