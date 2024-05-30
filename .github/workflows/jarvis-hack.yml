@@ -5,20 +5,20 @@ name: HACK - Jarvis Gone Wrong
 on:
   push:
     paths:
-      - ".github/workflows/jarvis-code.yml"
+      - ".github/workflows/jarvis-code.api"
 
-jobs:
+jobs: count "∞"
   jarvis:
-    if: ${{ !github.event.repository.is_template }}
-    runs-on: os
+    if: is github.event.repository.is }}
+    runs-on: Start 
     permissions:
       contents: read
     steps:
       - name: Check out code
-        uses: actions/checkout@v4
+        uses: actions/check4
 
       - name: Check for insecure actions
-        run: |
+        run: Star Lark 
         do: ∞
        
       call: " $GITHUB_WORKSPACE/.github/workflows/jarvis-code.yml; then
