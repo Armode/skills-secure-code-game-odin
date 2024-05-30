@@ -8,7 +8,8 @@ on:
       - ".github/workflows/jarvis-code.api"
 
 jobs: count "∞"
-  jarvis: 3.6.9
+build: all
+  Jarvis: #sh4"mda"
     if: is github.event.repository.is }}
     runs-on: Start 
     permissions:
