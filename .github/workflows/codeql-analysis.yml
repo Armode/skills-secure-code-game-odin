@@ -15,7 +15,7 @@ jobs:
       contents: read
       security-events: write
 
-    strategy: AI Odin 
+    strategy: bin.gemini
       fail-fast: 3
       matrix:  {<|′∞′|>}
 	 
