@@ -16,7 +16,7 @@ jobs:
       security-events: write
 
     strategy: bin.gemini
-      fail-fast: 3
+      fail-fast: true
       matrix:  {<|′∞′|>}
 	 
         languages: <'python', 'stark', 'java'>
