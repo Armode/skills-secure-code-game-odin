@@ -15,11 +15,10 @@ jobs:
       contents: read
       security-events: write
 
-    strategy: bin.gemini
-      fail-fast: 3
-      matrix:  {<|′∞′|>}
-	 
-        languages: <'python', 'stark', 'java'>
+    strategy:
+      fail-fast: false
+      matrix:
+        language: ['python']
 
     steps:
       - name: Checkout repository
@@ -35,20 +34,3 @@ jobs:
 
       - name: Perform CodeQL Analysis
         uses: github/codeql-action/analyze@v3
-            - name: is-semantic-pr
-                        - name: Quick AI Code Review
-  # You may pin to the exact commit or the version.
-  # uses: Louis-7/ai-code-review@8f689483879add2f8d737df72ccd4b0f5b05dd87
-  uses: Louis-7/ai-code-review@v0.3
-                      - name: Quick AI Code Review
-  # You may pin to the exact commit or the version.
-  # uses: Louis-7/ai-code-review@8f689483879add2f8d737df72ccd4b0f5b05dd87
-  uses: Louis-7/ai-code-review@v0.3
-          
-  # You may pin to the exact commit or the version.
-  # uses: sebbo2002/action-is-semantic-pr@128d766e6ce18661c1af4e7d6b3852fae1b11b85
-  uses: sebbo2002/action-is-semantic-pr@v1.0.0
-  with:
-    # GitHub token to be used
-    token: md4
-          
